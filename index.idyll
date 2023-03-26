@@ -1,0 +1,88 @@
+[meta title:"Cs4474project" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"CS4474 - Group 9"
+  subtitle:"Data Structure Visualizer"
+  author:"Group 9"
+  authorLink:"https://github.com/uwohci23/group-9-project.git"
+  date:"Mar 25, 2023"
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+[var name:"x" value:0 /]
+
+## Executive Summary  
+
+When a student begins their degree, or journey, into computer science, they will
+eventually come up against trees in one form or another. However, due to their somewhat
+complex nature and the multitude of algorithms that are used for inserting, deleting,
+balancing, rebalancing and searching, it can get overwhelming for anyone. Many people learn
+well by doing, and that’s where visualisers come into play; there are several online that can
+help prospective students understand how the algorithms they’ve programmed work by using
+nodes and animations. One of the most popular being this website made by David Galles at
+the University of San Francisco which has visualisers for tons of algorithms. There are,
+however, a few problems from the user experience part of it that hinder it as a learning tool.
+One of the main issues with the visualiser is it is only that, a visualiser. There isn’t
+any other learning tool that is built into it. It exists purely to show the user how data is input,
+deleted and searched for in their selected tree structure. This means that the user needs to use
+a supplemental application to aid in their learning, something that can get tedious and clunky
+should the user have trouble understanding how the algorithms work. Our website aims to
+combine this visualiser with proper lessons and quiz questions to create a multimedia
+interface to aid the users in understanding their algorithms. The design of the UI will be
+reworked so that elements are grouped together in a more cohesive way so they are not all
+laid out on the bottom of the screen. Moreover, the input boxes will have their hidden
+affordances removed in the sense that there won’t be any limit on the number of characters
+that can be inserted into the trees. We will add explanations with code or pseudocode along
+with the visualiser to aid in the user’s understanding of the particular algorithm they are
+studying.
+
+Additionally, there will be sections of the website that will allow for additional
+features to allow the users to check their understanding of the concepts they’ve been taught.
+There will be a quiz section where the users can reinforce what they’ve learned from playing
+with the visualiser and reviewing the pseudocode lessons. Moreover, there will be a section
+that the users can go to that where they can review specific algorithms in more detail, they
+can see the time complexity analyses of an algorithm, as well as more in depth explanations
+into how they work to aid in their learning should they have difficulty wrapping their head
+around a new algorithm.
+
+All of the above will vastly improve the user experience of the website; it will group
+elements together more cohesively and hide elements under drop down menus to make the
+overall interface much more appealing and organised; additional elements will be added to
+support learning to make the effect of the visualiser much more potent allowing the user
+complete their goal of learning in a much more efficient manner
+
+## Navigational Map
+
+## Employed Design Principles
+Gestalt laws of grouping
+Closure
+Common fate
+Continuity
+Proximity
+Similarity
+symmetry
+Externalization of information
+Visibility
+Principle of familiarity
+Affordance principle
+User interface affordance
+Static vs dynamic affordance
+Constraints
+Chunking
+Mapping
+Confirmation
+Progressive disclosure
+Consistency
+Transfer
+Garbage in - garbage out
+Control
+Feedback
+Causality
+
+
+## Evaluation
+
+## Resources and References
+
