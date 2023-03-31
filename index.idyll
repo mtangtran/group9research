@@ -6,7 +6,7 @@
   subtitle:"Data Structure Visualizer"
   author:"Group 9"
   authorLink:"https://github.com/uwohci23/group-9-project.git"
-  date:"Mar 25, 2023"
+  date:"April 6th, 2023"
   background:"#222222"
   color:"#ffffff"
    /]
@@ -53,36 +53,110 @@ overall interface much more appealing and organised; additional elements will be
 support learning to make the effect of the visualiser much more potent allowing the user
 complete their goal of learning in a much more efficient manner
 
+When we were redesigning the application and designing new features, our design process had design challenges evident. We had to continuously evaluate the state and effectiveness of our User Interface (UI). A final UI was selected after multiple models were designed, created, and evaluated. Once the user interface was redesigned and approved, we had issues with multi-value input working faster than the animation code. The animation code had a delay inside to allow it to execute in the right amount of time. Altogether, these were some of the main design challenges we had present. 
+
 ## Navigational Map
 
 ## Employed Design Principles
 Gestalt laws of grouping
 Closure
+During our learning pages, a progress bar displays their progress partially and then fills up to the end. When they are at the end, the progress bar will go to the end. 
+
 Common fate
+Our practice curriculum goes from left to right for the beginning and end. We start off with the introduction lessons at the left as the start. Then we provide the user practice sessions in the middle. Finally, we end with a multi-level quiz session to test their knowledge. This format goes in sync for each respective lesson. 
+
 Continuity
+Our pages guide users in a vertical format they can read as a path. We have a vertical slider for guidance.
+
 Proximity
+Our menu guides users to group menu and quiz difficulty options. Similar components are grouped together, such as the information with insertion and deletion information with their respective diagram GIFs. 
+
 Similarity
+Our project formats the information in a familiar format that allows presented information to be clickable. An example would be the distinct quiz buttons to ensure users understand which interaction they can do. 
+
 symmetry
+During our quizzes, we try to maintain perfect symmetry in the quiz format. We have four possible quiz answers split up equally on each side. 
+
 Externalization of information
+Our system has specific visual appearances for object use. Our multimedia content is supposed to be read and seen based on the information and video. Then our practice component has specific play and input fields to be visually displayed and entered. Altogether, these objects can be used appropriately by looking at their appearance.
+
 Visibility
+Users are not overwhelmed users with unnecessary alternatives. We provide only the information that users need. 
+
 Principle of familiarity
+We allow users to enter manually one by one or by a multi-set entry. Users can add data to their desired preferences. 
+
 Affordance principle
+The affordances are used when the movement of going forward and backward in the quiz section. Users are provided the back option on the left side and the forward option on the right side. 
+
 User interface affordance
+Users can only pick mutually exclusive options. They can only select one option inside the quizzes, practices, and lessons at a time. 
+
 Static vs dynamic affordance
+One static affordance that we present inside our project is static cues. We have buttons for pushing inside the quizzes and practice. 
+
 Constraints
+We have physical constraints with the animation speed. We allow users to control the speed visually. 
+We provide a non-physical constraint through menus that are psychological. We allow visible characteristics of something to suggest the action possibilities. 
+
 Chunking
+The learning material is where multimedia content is separated into chunks for the user. Material is chunked close together and aligned in accordance with the Law of Proximity. 
+
 Mapping
+The mapping of information is displayed distinctively on the learning and quiz pages. We group information into separate categories for specific quizzes and learning topics to allow distinct choices for the users. Then the user can pick one specific topic they can learn, practice, or evaluate themselves on. 
+
 Confirmation
+Visual feedback is provided to users when they reset their input answers. They will be prompted to confirm their selection with an option of canceling the option if need be. 
+
 Progressive disclosure
+Progressive disclosure is where we limit the amount of information to only necessary and requested. We present only one page at a time for the lessons, practice, and quizzes. 
+
 Consistency
+Our app has multiple areas of consistency. Learning pages are consistent in their presentation of multimedia information. Then as users progress to the practice section they will use the same practice user interface tool for the visualization. As they get enough confidence, users will attempt to complete the quiz.
+
 Transfer
+We go through the traditional learning process by presenting information in a left-to-right format. The app begins with an introduction at the start, practice simulations next, and at the end are the evaluations. Together, this presents information like how a textbook presents information. 
+
 Garbage in - garbage out
+We control the quality of system input by not allowing users to enter data except by clicking on the learning and quiz pages. The input quality will not go down if the user can only click on the pages. 
+There are practice lesson pages where users can enter data for their respective data structures. 
+
 Control
+We plan to allow users to control the quiz difficulty and the pace of their input data. These two features allow users to see their expertise and individual preferences on how data enters the system. 
+
 Feedback
+We provide feedback in our system through feedback messages. The messages have a known time/progress to users inside the learning pages. In addition to a progress message, we have a feedback message on the specific entries on each data structure entry and operation.  
+
 Causality
+We try to add causality once an operation is complete. For the start of the quiz, once the users finish the question, they are suggested possible options for where to go next. As the next step occurs, users can see their animation complete or end after the last added input. Finally, once the quiz is over, a score is given back to users on their work. 
+
+ Hick's Law
+We limit the number of possible choices for the data structures, quiz options, and paths to four. This limited selection allows users to make simple and quick decisions for simple tasks.
+
 
 
 ## Evaluation
+1. Visibility of System Status
+We use visual displays to inform the users where they are inside the system. After each system feature is finished, we will guide the user on the next steps in the process.
+2. Match Between the System and the Real World
+Our system tries to follow traditional words, and concepts of traditional data structure learning websites, courses, and textbooks. 
+3. User Control & Freedom
+We allow users to go back and forth between distinctive areas on the page. There are backward and forward interfaces to allow users to progressively go back and change their answers in the quizzes or input in the practice section. This allows the user to feel empowered with freedom and confidence. 
+4. Consistency and Standards
+For our learning application, each feature has a consistent and standard content layout across each unique page. An example would be the learning pages. We use the same exact layout of the introduction, insertion, and deletion order. Every subsection has a block of text and a gif visual to explain and demonstrate the process. This formatting allows us to follow external consistency with other sites and internal consistency with our other topics inside the learning section. 
+5. Error Prevention
+We provide users with a way to change their answers through backward buttons to undo their perceived mistakes. There will be a warning button to clear all answers with a prompt asking users if they really want to reset their answers.
+6. Recognition vs. Recall in User Interfaces
+Our system only provides the traditional interface of menus, actions, and elements. We provide the appropriate amount of information to the user. There are buttons that play the visualization, animation speed, and insertion/deletion/search fields. 
+7. Flexibility and Efficiency of Use
+Users can select whatever option they want. They are unrestricted from starting at the learning sections. Any component, either practice or quizzes, can be accessed regardless of when users enter the system. 
+8. Aesthetic and Minimalist Design
+We only display the relevant information that users want from their selected feature. We do not mix and match quizzes, practice, and learning material into one section. 
+9. Help Users Recognize, Diagnose and Recover from
+Errors
+Users can recover from errors by resetting the inputs/answers that they have. 
+10. Help & Documentation
+We will have multimedia tutorials where users can see how to use the system in terms of practice and quizzes. Each tutorial will have a concise and concrete list of steps to perform. This guide allows users to see how to use the system if they are not confident.
 
 ## Resources and References
 
