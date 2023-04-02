@@ -1,5 +1,4 @@
 {
-  "homepage": "http://mtangtran.github.io/group9research",
   "name": "cs4474project",
   "version": "1.0.0",
   "license": "MIT",
@@ -12,8 +11,6 @@
   "type": "module",
   "scripts": {
     "start": "idyll",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "idyll build",
     "publish": "idyll publish"
   },
