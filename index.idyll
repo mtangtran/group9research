@@ -14,7 +14,18 @@
 [var name:"x" value:0 /]
 
 
-## Executive Summary
+# Table of Contents
+[ol]
+  [li] [Executive Summary](#executive-summary) [/li]
+  [li] [Navigational Map](#navigational-map)[/li]
+  [li] [Employed Design Principles](#employed-design-principles)  [/li]
+  [li] [Evaluation](#evaluation)[/li]
+  [li] [List of Recommendations for Improvement](#list-of-recommendations-for-improvement)[/li]
+  [li] [Resources and References](#resources-and-references) [/li]
+[/ol]
+
+
+## Executive Summary 
 
 [p]As students embark on their computer science journey, they inevitably encounter tree structures. Tree algorithms, encompassing insertion, deletion, balancing, rebalancing, and searching, can be complex and many find them overwhelming. Many students benefit from hands-on learning experiences, and visualizers provide an effective way to understand these algorithms through animations. One popular visualizer is a [website](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) by David Galles at the University of San Francisco, which offers visualizations for numerous algorithms. However, this tool contains design flaws, has dated design, and is missing some key features, all of which hinder its effectiveness as a learning tool, forcing users to rely on supplemental applications for their learning. Our redesign aims to address those weaknesses and provide a more comprehensive learning experience.[/p]
 
@@ -28,7 +39,7 @@
 
 [p]These improvements significantly enhance the user experience by creating a more organized and visually appealing interface. Additionally, the added learning support features amplify the visualizer's effectiveness, enabling users to achieve their learning goals more efficiently. Despite the challenges faced during the redesign, our redesigned website offers a more intuitive and comprehensive learning experience for users seeking to master tree algorithms.[/p]
 
-## Navigational Map
+## Navigational Map 
 
 This is the lesson plan storyboard:
 [var name:"showChart" value:false /]
@@ -66,9 +77,9 @@ This is the visualizer storyboard:
 
 
 
-## Employed Design Principles
-[var name:"myVar" value:24 /]
-We have [Dynamic value:myVar /] design principles incorporated into our project: 
+## Employed Design Principles 
+
+We have 24 design principles incorporated into our project: 
 
 
 
@@ -240,7 +251,7 @@ From these feedback images and messages, users would be given clear and instanta
 
 [p]To simplify decision-making for users, we limited the number of choices available for data structures, quiz options, and learning paths to four. This streamlined selection process allows users to make quick and efficient decisions.[/p]
 
-# Evaluation
+# Evaluation 
 
 ## Analytical Evaluation
 ### 1. Description
@@ -251,7 +262,9 @@ We did some AB testing to see the best demonstration of user using a feature. A 
 
 ### Analysis
 After the analytical evaluation and feedback was complete, it was not sufficient to simply conduct analytical simulations. We knew that heuristic evaluations needed to be conducted in order to achieve a well-designed system.
+
 ## Detailed Heuristic Evaluation
+
 ### 1. Visibility of System Status
 
 #### 1.1 Progress Tracking
