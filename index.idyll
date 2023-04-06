@@ -31,14 +31,37 @@
 ## Navigational Map
 
 This is the lesson plan storyboard:
-![lessonPlan](./static/images/0.png)
+[var name:"showChart" value:false /]
+
+[Button onClick:`showChart = !showChart`]
+  [Display value:`showChart ? 'Hide lesson storyboard' : 'Show lesson storyboard' ` /]
+[/Button]
+
+[Conditional if:`showChart`]
+  ![lessonPlan](./static/images/0.png)
+[/Conditional]
 
 This is the quiz plan storyboard:
-![quiz](./static/images/1.png)
+[var name:"showChart1" value:false /]
+
+[Button onClick:`showChart1 = !showChart1`]
+  [Display value:`showChart1 ? 'Hide quiz storyboard' : 'Show quiz storyboard' ` /]
+[/Button]
+
+[Conditional if:`showChart1`]
+  ![quizPlan](./static/images/1.png)
+[/Conditional]
 
 This is the visualizer storyboard:
-![visualizer](./static/images/2.png)
+[var name:"showChart2" value:false /]
 
+[Button onClick:`showChart2 = !showChart2`]
+  [Display value:`showChart2 ? 'Hide lvisualizer storyboard' : 'Show visualizer storyboard' ` /]
+[/Button]
+
+[Conditional if:`showChart2`]
+  ![visualizer](./static/images/2.png)
+[/Conditional]
 
 
 
