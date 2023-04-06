@@ -124,15 +124,15 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ![Alt Text](./static/images/gifs/animationSpeed.gif)
 ### 13. Constraints
 
-[p]We implemented physical constraints by allowing users to be able to pick only 4 quiz answers and 3 possible quiz navigation choices, enhancing the user experience. We also introduced psychological constraints through menus, guiding users to interact with the interface in specific ways.[/p]
+[p]We implemented physical constraints to make the system more robust against user error. For example, we allow users to be able to pick only 4 quiz answers and 3 possible quiz navigation choices, enhancing the user experience. We also introduced psychological constraints through menus, guiding users to interact with the interface in specific ways. These constraints allow us to guide the user to predictable behaviors. [/p]
 
 ### 14. Chunking
 
-[p]We separated learning material into manageable chunks and grouped related content together, following the Law of Proximity, making it easier for users to understand and digest the information.[/p]
+[p]We separated learning material into manageable chunks and grouped related content together, following the Law of Proximity, making it easier for users to understand and digest the information. For example, we separated the components of the learning section into distinctive parts. The introduction, insertion, deletion, searching, and comparison parts are separated to present the relevant information. Another example would be the quizzes only allow users to see one question in a page. These examples allow us to make the information digestable and easy to manage.[/p]
 
 ### 15. Mapping
 
-[p]We organized information on learning and quiz pages into distinct categories, allowing users to make clear choices about the topics they wish to learn, practice, or evaluate.[/p]
+[p]We organized information on learning, practice, and quiz pages into distinct categories, allowing users to make clear choices about the topics they wish to learn, practice, or evaluate. Users can pick the four data structure topics that we allow them to see in each component.[/p]
 
 ### 16. Confirmation
 
@@ -143,7 +143,7 @@ an alert will appear.
 
 ### 17. Progressive Disclosure
 
-[p]We designed our content to display only necessary and requested information at any given time, presenting one page at a time for lessons, practice, and quizzes, reducing cognitive load on users.[/p]
+[p]We designed our content to display only necessary and requested information at any given time, presenting one page at a time for lessons, practice, and quizzes, reducing cognitive load on users. The system presents one question for a quiz, one topic for the lesson, or one data structure for the practice component.[/p]
 
 ### 18. Consistency
 
@@ -151,11 +151,11 @@ an alert will appear.
 
 ### 19. Transfer
 
-[p]We designed our application to follow a traditional learning process, similar to how a textbook presents information. The app starts with an introduction, followed by practice simulations and evaluations at the end. This familiar layout helps users better understand and engage with the learning materials.[/p]
+[p]We designed our application to follow a traditional learning process, similar to how a textbook presents information. The app starts with an introduction, followed by practice simulations and evaluations at the end. This familiar layout helps users better understand and engage with the learning materials. Users can pick and choose where they go to help guide their data structure knowledge.[/p]
 
 ### 20. Garbage In - Garbage Out
 
-[p]To maintain input quality, we restricted user data entry to specific areas, such as learning and quiz pages. By limiting input options, we ensure that the quality of the system's input remains high.[/p]
+[p]To maintain input quality, we restricted user data entry to specific areas, such as learning and quiz pages. Users can only interact with the learning and quiz pages by clicking the buttons and links.  By limiting input options, we ensure that the quality of the system's input remains high.[/p]
 
 ### 21. Control
 
@@ -254,33 +254,33 @@ Users will be displayed their score.
 
 [p]To further empower users, we include undo functionality that allows them to correct perceived mistakes or revert to a previous state. This enhances the user experience by fostering a sense of control and confidence while navigating the system.[/p]
 
-#### 3.4 Missing Features
+#### 3.3 Missing Features
 
-##### 3.4.1 Missing Direct Interaction Feature
+##### 3.3.1 Missing Direct Interaction Feature
 
-[p]There is no way to interact with the tree directly by pressing on various nodes (for example, right-clicking to have a drop-down menu which would allow to delete a node, or print the path to it, etc.). This feature cannot be added without first modfying the entire code to work with a modern library for the purpose of animation and otherwise. Despite it, having such a feature would have given users the opportunity of a more hands-on experience when learning about tree structures, and would have increased the emotional investment.[/p]
+[p]There is no way to interact with the tree directly by pressing on various nodes (for example, right-clicking to have a drop-down menu which would allow to delete a node, or print the path to it, etc.). This feature cannot be added without first modfying the entire code to work with a modern library for the purpose of animation and otherwise. Despite this, having such a feature would have given users the opportunity of a more hands-on experience when learning about tree structures, and would have increased the emotional investment.[/p]
 
-##### 3.4.2 Missing Tree Merging Feature
+##### 3.3.2 Missing Tree Merging Feature
 
 [p]The ability to merge two trees. This could be an essential function for users who want to explore advanced tree manipulation techniques. Incorporating this feature will provide a more comprehensive learning experience for advanced users.[/p]
 
-##### 3.4.3 Missing Advanced Tree Building Quiz
+##### 3.3.3 Missing Advanced Tree Building Quiz
 
-[p]An advanced tree building quiz where the user gets a question such as "how would a tree look if we add 6, 8, 1, 3, 11, 5, in this order, to an empty tree?". Such questions would help deepen users' understanding of tree structures and their manipulation and provide a more challenging and engaging learning experience for users who have already mastered basic tree concepts.In the current framework, adding this feature would be somewhere between very difficult.[/p]
+[p]An advanced tree building quiz where the user gets a question such as "how would a tree look if we add 6, 8, 1, 3, 11, 5, in this order, to an empty tree?". Such questions would help deepen users' understanding of tree structures and their manipulation and provide a more challenging and engaging learning experience for users who have already mastered basic tree concepts.In the current framework, adding this feature would be very difficult.[/p]
 
-##### 3.4.4 Missing Tree Saving Feature
+##### 3.3.4 Missing Tree Saving Feature
 
 [p]Storing the existing tree to memory so the user will have the option of using it when opening the page the next time (likely through cookies). This would allow users to save their progress and continue working on their tree structures at a later time. Adding this feature could improve user satisfaction and provide a more personalized learning experience.[/p]
 
-##### 3.4.5 Missing Tree Comparison Feature
+##### 3.3.5 Missing Tree Comparison Feature
 
 [p]The ability to compare various algorithm and trees is missing. Comparing trees can help users understand the differences between various tree structures and their respective properties. Implementing this feature could facilitate deeper understanding and analysis of tree structures.[/p]
 
-##### 3.4.6 Missing Accessibility Support
+##### 3.3.6 Missing Accessibility Support
 
-[p]At the current time, there is in adequate accessibility support, limiting the usability of our system for users with visual impairments or other accessibility needs. It is essential to incorporate accessibility features to create a more inclusive learning experience.[/p]
+[p]At the current time, there is inadequate accessibility support, limiting the usability of our system for users with visual impairments or other accessibility needs. It is essential to incorporate accessibility features to create a more inclusive learning experience.[/p]
 
-##### 3.4.7 Implementing the Updates for the Remaining Tools
+##### 3.3.7 Implementing the Updates for the Remaining Tools
 
 [p]As there are over 4 dozen tools, we did not have the time or ability to modify them all, and had to concentrate on specific ones. Updating the remaining tools would improve consistency and overall quality.[/p]
 
@@ -401,7 +401,6 @@ Users will be displayed their score.
 Considering the entire report and specific final evaluation, the following recommendations can be made for improving the system:
 
 [ol]
-[li]Considering the entire report and specific final evaluation, the following recommendations can be made for improving the system:[/li]
 [li]Update the entire codebase: Modernize the system by rewriting the entire code using a modern framework like React or Angular. This would result in improved performance, reduced response times, smoother user experience, and a more contemporary look and feel.[/li]
 [li]Add direct interaction features: Implement the ability to interact directly with the tree by selecting nodes, offering options like deleting nodes or displaying the path to the selected node. This would enhance the hands-on learning experience and increase emotional investment.[/li]
 [li]Introduce tree merging feature: Enable users to merge two trees, allowing them to explore advanced tree manipulation techniques and catering to advanced users.[/li]
@@ -423,5 +422,33 @@ Considering the entire report and specific final evaluation, the following recom
   [li]HaghighatiMaleki, A. (n.d.). CS4474 Hci. UWO. London, Ontario; OWL. [/li]
   [li]GeeksforGeeks. (2023, February 17). How to create a simple JavaScript quiz ? GeeksforGeeks. Retrieved April 6, 2023, from https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/ [/li]
   [li]How to - image magnifier glass. How To Create an Image Magnifier Glass. (n.d.). Retrieved April 6, 2023, from https://www.w3schools.com/howto/howto_js_image_magnifier_glass.asp [/li]
-
+  [li] Home Image BST: https://miro.medium.com/v2/resize:fit:976/0*87ArmAxh9T5Ns3Um.gif [/li]
+  [li] Home Image AVL: https://wkdtjsgur100.github.io/images/posts/rotation.gif [/li]
+  [li] Home Image RBT: https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg [/li]
+  [li] Home Image B+: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bplustree.png/400px-Bplustree.png [/li]
+  [li]Learn BST Image 1: https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.png [/li]
+  [li]Learn BST Image 2: https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif[/li]
+  [li]Learn BST Image 3: https://daankolthof.com/wp-content/uploads/2020/01/BST-insertion-animation.gif[/li]
+  [li]Learn BST Image 4: https://www.ideserve.co.in/learn/img/bstDelete_0.gif[/li]
+  [li]Learn BST Image 5: https://cdn.programiz.com/sites/tutorial2program/files/bst-delete-3.png[/li]
+  [li]Learn BST Image 6: https://cdn.programiz.com/sites/tutorial2program/files/bst-delete-4.png[/li]
+  [li]Learn BST Image 7: https://cdn.programiz.com/sites/tutorial2program/files/bst-delete-5.png[/li]
+  [li]Learn B+ Image 1: https://cdn.programiz.com/sites/tutorial2program/files/search-tree.png[/li]
+  [li]Learn B+ Image 2: https://cdn.programiz.com/sites/tutorial2program/files/insert-2-b+tree.png[/li]
+  [li]Learn B+ Image 3: https://cdn.programiz.com/sites/tutorial2program/files/insert-3-b+tree.png[/li]
+  [li]Learn B+ Image 4: https://cdn.programiz.com/sites/tutorial2program/files/insert-4-b+tree.png[/li]
+  [li]Learn B+ Image 5: https://cdn.programiz.com/sites/tutorial2program/files/insert-5-b+tree.png[/li]
+  [li]Learn B+ Image 6: https://cdn.programiz.com/sites/tutorial2program/files/deletion-1-b+tree.png[/li]
+  [li]Learn B+ Image 7: https://cdn.programiz.com/sites/tutorial2program/files/deletion-2-b+tree.png[/li] 
+  [li]Learn B+ Image 9: https://cdn.programiz.com/sites/tutorial2program/files/deletion-4-b+tree.png[/li]
+  [li]Learn B+ Image 10: https://cdn.programiz.com/sites/tutorial2program/files/deletion-5-b+tree.png[/li]
+  [li]Learn B+ Image 11: https://cdn.programiz.com/sites/tutorial2program/files/deletion-6-b+tree.png[/li]
+  [li]Learn RB Image 1: https://algorithmtutor.com/images/RBTreeExample.png[/li]
+  [li] Learn AVL Images: "https://cdn.programiz.com/sites/tutorial2program/files/avl-tree"[/li]
+  [li]Learn AVL Image 7: https://wkdtjsgur100.github.io/images/posts/rotation.gif[/li]
+  [li]Learn RB Images: https://algorithmtutor.com/images/RBTreeExample.png[/li]
+  [li]Learn RB Image: https://wkdtjsgur100.github.io/images/posts/rotation.gif[/li]
+  [li]Learn RB Video 1: https://www.youtube.com/embed/A3JZinzkMpk[/li]
+  [li]Learn RB Video 2: https://www.youtube.com/embed/lU99loSvD8s[/li]
+  [li]Youtube Video: Red-black trees in 6 minutes — Delete Fixes - Link is broken[/li]
 [/ol]
