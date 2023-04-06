@@ -88,6 +88,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 4. Proximity
 
 [p]We applied the Gestalt law of proximity by grouping similar components together in our menu. For example, insertion and deletion information are displayed alongside their respective diagram GIFs, making it easier for users to find and understand the information they need.[/p]
+![spacing](./static/images/designPrinciples/spacingAndControl.png)
 
 ### 5. Similarity
 
@@ -120,7 +121,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 12. Static vs Dynamic Affordance
 
 [p]Our project includes static affordances like buttons for interaction in quizzes and practice sections, making it easy for users to understand and interact with the interface.[/p]
-
+![Alt Text](./static/images/gifs/animationSpeed.gif)
 ### 13. Constraints
 
 [p]We implemented physical constraints by allowing users to control the animation speed, enhancing the user experience. We also introduced psychological constraints through menus, guiding users to interact with the interface in specific ways.[/p]
@@ -136,6 +137,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 16. Confirmation
 
 [p]To prevent unintended actions, we provide visual feedback and prompts for users to confirm their input selections or to cancel their actions if necessary.[/p]
+
 
 ### 17. Progressive Disclosure
 
@@ -156,6 +158,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 21. Control
 
 [p]We designed our application to give users control over quiz difficulty and the pace of data input. These features allow users to tailor the learning experience to their individual expertise and preferences.[/p]
+![quizDifficulty](./static/images/quizDifficulty.png)
 
 ### 22. Feedback
 
@@ -292,7 +295,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
     All quizzes have two different settings.
   [/Graphic]
 
-  Reset annotation!
+  Quiz annotation!
 [/Annotation]
 
 ### 8. Aesthetic and Minimalist Design
@@ -338,6 +341,11 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 #### 10.1 Multimedia Tutorials
 
 [p]We offer multimedia tutorials that guide users on how to use the system, particularly in relation to practice sessions and quizzes. These tutorials feature concise and concrete step-by-step instructions, accompanied by visuals or animations to demonstrate each step.[/p]
+![Alt Text](./static/images/gifs/multimediaTutorial.gif)
+
+#### 10.2 Accessible Help Resources
+
+[p]Our help resources are easily accessible and well-organized, ensuring that users can quickly find the information they need to resolve any issues or questions they may have. By providing clear and comprehensive documentation, we empower users to make the most of our system and overcome any obstacles they encounter.[/p]
 
 [Annotation]
   [Graphic]
@@ -348,10 +356,6 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 
   Tutorial annotation!
 [/Annotation]
-
-#### 10.2 Accessible Help Resources
-
-[p]Our help resources are easily accessible and well-organized, ensuring that users can quickly find the information they need to resolve any issues or questions they may have. By providing clear and comprehensive documentation, we empower users to make the most of our system and overcome any obstacles they encounter.[/p]
 
 ## List of Recommendations for Improvement
 
