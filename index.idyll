@@ -88,7 +88,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 4. Proximity
 
 [p]We applied the Gestalt law of proximity by grouping similar components together in our menu. For example, insertion and deletion information are displayed alongside their respective diagram GIFs, making it easier for users to find and understand the information they need.[/p]
-![spacing](./static/images/designPrinciples/spacingAndControl.png)
+![spacing](./static/images/designPrinciples/spacingAndControl.PNG)
 
 ### 5. Similarity
 
