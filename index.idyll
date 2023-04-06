@@ -2,9 +2,9 @@
 
 [Header
   fullWidth:true
-  title:"CS4474 - Group 9"
-  subtitle:"Data Structure Visualizer"
-  author:"Group 9"
+  title:"Data Structure Visualizer"
+  subtitle:"CS4474 Group 9"
+  author:"Yonatan Alexander, Nolan Morris, Michael Tang-Tran, and Khanh Linh (Erin) Vu "
   authorLink:"https://github.com/uwohci23/group-9-project.git"
   date:"April 6th, 2023"
   background:"#222222"
@@ -56,7 +56,7 @@ This is the visualizer storyboard:
 [var name:"showChart2" value:false /]
 
 [Button onClick:`showChart2 = !showChart2`]
-  [Display value:`showChart2 ? 'Hide lvisualizer storyboard' : 'Show visualizer storyboard' ` /]
+  [Display value:`showChart2 ? 'Hide visualizer storyboard' : 'Show visualizer storyboard' ` /]
 [/Button]
 
 [Conditional if:`showChart2`]
@@ -76,7 +76,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 1. Closure:
 
 [p]We applied the Gestalt law of closure by incorporating a progress bar on our learning pages. This progress bar provides users with an overview of their learning progress, helping them understand how far they have come and how much further they need to go. This improves the user experience by creating a sense of achievement and motivation as users work through the learning materials.[/p]
-
+![Alt Text](./static/images/gifs/multimediaTutorial.gif)
 ### 2. Common Fate
 
 [p]To enhance the user experience, we designed our practice curriculum to follow a left-to-right layout, maintaining consistency and cohesion. We begin with introductory lessons on the left, followed by practice sessions in the middle, and conclude with a multi-level quiz session on the right. This allows users to easily understand the sequence of steps they need to follow to complete the course.[/p]
@@ -124,7 +124,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ![Alt Text](./static/images/gifs/animationSpeed.gif)
 ### 13. Constraints
 
-[p]We implemented physical constraints by allowing users to control the animation speed, enhancing the user experience. We also introduced psychological constraints through menus, guiding users to interact with the interface in specific ways.[/p]
+[p]We implemented physical constraints by allowing users to be able to pick only 4 quiz answers and 3 possible quiz navigation choices, enhancing the user experience. We also introduced psychological constraints through menus, guiding users to interact with the interface in specific ways.[/p]
 
 ### 14. Chunking
 
@@ -137,7 +137,9 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 ### 16. Confirmation
 
 [p]To prevent unintended actions, we provide visual feedback and prompts for users to confirm their input selections or to cancel their actions if necessary.[/p]
-
+This is an example of the reset button message in the visualizer section, but when you
+ [action onClick:`alert('If you click ok, you will reset all inputs. Are you sure? ')`]click me[/action],
+an alert will appear.
 
 ### 17. Progressive Disclosure
 
@@ -162,7 +164,44 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 
 ### 22. Feedback
 
-[p]We incorporated feedback messages to inform users of their progress within the learning pages. Additionally, we provided feedback on specific data structure entries and operations, ensuring that users understand the results of their actions.[/p]
+[p]We incorporated feedback messages to inform users of their progress within the learning pages. Additionally, we provided feedback on all quiz question and the end of the quiz. This quiz feedback provides the answer immediately, and a score after the user is done the quiz.[/p]
+
+Users will be informed when get the wrong or right answer. 
+
+[var name:"showChart4" value:false /]
+
+[Button onClick:`showChart4 = !showChart4`]
+  [Display value:`showChart4 ? 'Hide wrong answer' : 'Show wrong answer' ` /]
+[/Button]
+
+[Conditional if:`showChart4`]
+  ![wrong answer](./static/images/designPrinciples/wrongAnswer.png)
+[/Conditional]
+
+[var name:"showChart5" value:false /]
+
+[Button onClick:`showChart5 = !showChart5`]
+  [Display value:`showChart5 ? 'Hide right answer' : 'Show right answer' ` /]
+[/Button]
+
+[Conditional if:`showChart5`]
+  ![quizPlan](./static/images/designPrinciples/rightAnswer.png)
+[/Conditional]
+
+Users will be displayed their score. 
+[var name:"showChart6" value:false /]
+
+[Button onClick:`showChart6 = !showChart6`]
+  [Display value:`showChart6 ? 'Hide score' : 'Show score'  ` /]
+[/Button]
+
+[Conditional if:`showChart6`]
+  ![score](./static/images/designPrinciples/score.png)
+[/Conditional]
+
+
+
+
 
 ### 23. Causality
 
@@ -376,4 +415,13 @@ Considering the entire report and specific final evaluation, the following recom
 
 ## Resources and References
 
-[Github Repository](https://github.com/uwohci23/group-9-project.git)
+[ol]
+  [li][Data Visualization Website Code and interface](https://www.cs.usfca.edu/~galles/visualization/about.html)[/li]
+  [li][Github Repository](https://github.com/uwohci23/group-9-project.git)[/li]
+  [li][Learn programmingfor free. Programiz. (n.d.). Retrieved April 6, 2023, from https://www.programiz.com/ ](https://www.programiz.com/)[/li]
+  [li][Sharp, Helen; Preece, Jennifer; & Rogers, Yvonne (2019). Interaction Design: Beyond Human-Computer Interaction (5th Ed.). Wiley.](https://www.wiley.com/en-ca/Interaction+Design:+Beyond+Human+Computer+Interaction,+5th+Edition-p-9781119547259)[/li]
+  [li]HaghighatiMaleki, A. (n.d.). CS4474 Hci. UWO. London, Ontario; OWL. [/li]
+  [li]GeeksforGeeks. (2023, February 17). How to create a simple JavaScript quiz ? GeeksforGeeks. Retrieved April 6, 2023, from https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/ [/li]
+  [li]How to - image magnifier glass. How To Create an Image Magnifier Glass. (n.d.). Retrieved April 6, 2023, from https://www.w3schools.com/howto/howto_js_image_magnifier_glass.asp [/li]
+
+[/ol]
