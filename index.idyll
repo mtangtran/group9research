@@ -13,6 +13,7 @@
 
 [var name:"x" value:0 /]
 
+
 ## Executive Summary
 
 [p]As students embark on their computer science journey, they inevitably encounter tree structures. Tree algorithms, encompassing insertion, deletion, balancing, rebalancing, and searching, can be complex and many find them overwhelming. Many students benefit from hands-on learning experiences, and visualizers provide an effective way to understand these algorithms through animations. One popular visualizer is a [website](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) by David Galles at the University of San Francisco, which offers visualizations for numerous algorithms. However, this tool contains design flaws, has dated design, and is missing some key features, all of which hinder its effectiveness as a learning tool, forcing users to rely on supplemental applications for their learning. Our redesign aims to address those weaknesses and provide a more comprehensive learning experience.[/p]
@@ -30,13 +31,16 @@
 ## Navigational Map
 
 This is the lesson plan storyboard:
-![lessonPlan](./static/images/1.png)
+![lessonPlan](./static/images/0.png)
 
 This is the quiz plan storyboard:
-![quiz](./static/images/2.png)
+![quiz](./static/images/1.png)
 
 This is the visualizer storyboard:
-![visualizer](./static/images/3.png)
+![visualizer](./static/images/2.png)
+
+
+
 
 
 ## Employed Design Principles
@@ -251,9 +255,22 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 
 [p]Our system allows users to access any component—learning sections, practice modules, or quizzes—at their own discretion. We do not impose a strict progression path, enabling users with varying levels of expertise to choose the content that is most relevant to their needs and interests.[/p]
 
+![Navigation Bar](./static/images/navBar.PNG)
+
+
 #### 7.2 Tailored Experience
 
 [p]We enable users to tailor their learning experience by offering customizable settings, such as animation speed and quiz difficulty. These options cater to different learning preferences, ensuring that users can interact with the system in a way that best suits their individual needs.[/p]
+
+[Annotation]
+  [Graphic]
+    This is our quiz difficulty setting!
+    [img src:"./static/images/quizDifficulty.png" /]
+    All quizzes have two different settings.
+  [/Graphic]
+
+  Reset annotation!
+[/Annotation]
 
 ### 8. Aesthetic and Minimalist Design
 
@@ -270,10 +287,28 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 #### 9.1 Error Recovery Options
 
 [p]We provide users with the ability to recover from errors by offering options to reset inputs, answers, or other actions. By giving users the opportunity to correct their mistakes, we promote a positive user experience and ensure that users do not become frustrated or disheartened.[/p]
+[Annotation]
+  [Graphic]
+    This is our reset button!
+    [img src:"./static/images/tutorial.png.png" /]
+    Cool, huh?
+  [/Graphic]
+
+  Reset annotation!
+[/Annotation]
 
 #### 9.2 Informative Error Messages
-
 [p]When errors do occur, we display informative and actionable error messages that help users understand the cause of the issue and suggest possible solutions. This approach empowers users to address errors effectively and minimizes confusion or frustration.[/p]
+[Annotation]
+  [Graphic]
+    This is our error message!
+    [img src:"./static/images/resetButtonConfirmation.PNG" /]
+    informative, huh?
+  [/Graphic]
+
+  Tutorial annotation!
+[/Annotation]
+
 
 ### 10. Help & Documentation
 
@@ -284,7 +319,7 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 [Annotation]
   [Graphic]
     This is our tutorial!
-    [img src:"./static/images/sample.png.png" /]
+    [img src:"./static/images/tutorial.png.png" /]
     Cool, huh?
   [/Graphic]
 
