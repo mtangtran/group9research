@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "start": "idyll",
-    "build": "idyll build",
+    "build": "idyll build && mv build docs",
     "publish": "idyll publish"
   },
   "dependencies": {
