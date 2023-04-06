@@ -92,10 +92,12 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 
 ### 5. Similarity
 
-[p]To improve usability, we formatted our content in a familiar and consistent manner, allowing users to easily recognize and interact with clickable elements, such as quiz buttons.[/p]
+[p]To improve usability, we formatted our content in a familiar and consistent manner, allowing users to easily recognize and interact with clickable elements, such as quiz buttons. We made sure that the components had consistent subcomponents. For example, the quizzes had the same format, length, and interface. [/p]
 
 ### 6. Symmetry
 
+[p]We had symmetry present in our lessons and homepage. The symmetry was consistent so users would recognize symbols and text easily.[/p]
+![Alt Text](./static/images/gifs/symmetry.gif)
 [p]In our quizzes, we maintained symmetry by displaying four possible quiz answers equally distributed on each side. This balanced layout enhances the user experience by creating a visually pleasing and organized interface.[/p]
 
 ### 7. Externalization of Information
@@ -104,11 +106,38 @@ We have [Dynamic value:myVar /] design principles incorporated into our project:
 
 ### 8. Visibility
 
-[p]To avoid overwhelming users, we focused on providing only the necessary information and tools, ensuring a streamlined and straightforward experience.[/p]
+[p]To avoid overwhelming users, we focused on providing only the necessary information and tools, ensuring a streamlined and straightforward experience. Users would only see lessons in the lesson categories, practice visualizers in the visualizer section, and 1 quiz question at a time in the quiz section.[/p]
 
 ### 9. Principle of Familiarity
 
-[p]We enabled users to input data according to their preferences by allowing manual entry, either one-by-one or in multi-set format.[/p]
+[p]We enabled users to input data according to their preferences by allowing manual entry, either one-by-one or in multi-set format in the visualizer. For the multi-set format, we allowed strings with integers separated by commas, spaces, or both. [/p]
+
+####Examples:
+
+#####Example 1:
+[var name:"myVar" value:false /]
+
+[Boolean value:myVar /]
+
+Input: [Display value:`myVar ? "1, 2, 3, 4, 5" : "Click checkbox to see the values."  `/]
+
+#####Example 2:
+
+[var name:"myVar1" value:false /]
+
+[Boolean value:myVar1 /]
+
+Input: [Display value:`myVar1 ? "1,2,3,4,5" : "Click checkbox to see the values."  `/]
+
+#####Example 3:
+
+[var name:"myVar3" value:false /]
+
+[Boolean value:myVar3 /]
+
+Input: [Display value:`myVar3 ? "1 2 3 4 5" : "Click checkbox to see the values."  `/]
+
+Users are familiar entering input strings in those common formats. The system allows them to do this in the visualizer.
 
 ### 10. Affordance Principle
 
@@ -199,7 +228,7 @@ Users will be displayed their score.
   ![score](./static/images/designPrinciples/score.png)
 [/Conditional]
 
-
+From these feedback images and messages, users would be given clear and instantaneous feedback on their performance. Thus, users can be better informed on where their knowledge can improve.
 
 
 
@@ -211,8 +240,18 @@ Users will be displayed their score.
 
 [p]To simplify decision-making for users, we limited the number of choices available for data structures, quiz options, and learning paths to four. This streamlined selection process allows users to make quick and efficient decisions.[/p]
 
-## Detailed Heuristic Evaluation
+# Evaluation
 
+## Analytical Evaluation
+### 1. Description
+After one of our group members finished developing a feature, we would run user simulations on the task. We would provide feedback to the developer on the quality and performance of the feature. As a result, the developer would continue performing improvements to their work until there was high enough ratings from the other group members.  
+
+### 2. A B Testing
+We did some AB testing to see the best demonstration of user using a feature. A specific example would be the quiz format. We explored multiple choice buttons versus radio buttons. We realized that multiple choice was the better option after getting feedback from some group members pretending to be users. 
+
+### Analysis
+After the analytical evaluation and feedback was complete, it was not sufficient to simply conduct analytical simulations. We knew that heuristic evaluations needed to be conducted in order to achieve a well-designed system.
+## Detailed Heuristic Evaluation
 ### 1. Visibility of System Status
 
 #### 1.1 Progress Tracking
